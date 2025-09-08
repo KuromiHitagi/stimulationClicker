@@ -1,0 +1,41 @@
+main{
+    width: 100vw;
+    height: 100vh;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aqua;
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn-principal-click{
+    background-color: rgb(235, 235, 235);
+    min-width: 100.52px;
+    max-width: 100.52px;
+    min-height: 38px;
+    max-height: 38px;
+    font-size: 21px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    display: inline;
+
+}
+.btn-principal-click:hover{
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}
+
+.StimulationClicker {
+    display: none;
+    font-size: 24px;
+}
