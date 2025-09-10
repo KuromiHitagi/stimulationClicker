@@ -7,15 +7,28 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+section{
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn-principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
-    background-color: aqua;
+    position: relative;
+
     width: fit-content;
-    height: fit-content;
+    height: 87px;
+    white-space: nowrap;
 }
 
 .btn-principal-click{
@@ -26,16 +39,28 @@ main{
     max-height: 38px;
     font-size: 21px;
     margin-bottom: 20px;
-    border:1px solid black;
+    border: 1px solid #777;
     display: inline;
-
+    position: absolute;
+    bottom: 130px;
 }
 .btn-principal-click:hover{
     cursor: pointer;
     background-color: rgb(211, 211, 211);
 }
 
+.show-stimulation {
+    position: relative;
+}
+
 .StimulationClicker {
     display: none;
     font-size: 24px;
-}
+    position: absolute;
+    bottom: 103px;
+    left: -70px;
+    font-weight: 400;
+    color: black;
+    opacity: 1;
+    white-space: nowrap;
+}   

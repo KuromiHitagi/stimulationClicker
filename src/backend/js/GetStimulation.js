@@ -14,5 +14,18 @@ function GetStimulation() {
 
     if (StimulationsEarned == 1) {
         document.getElementById("StimulationClicker").style = "display: inline;"
+
+        document.getElementById("StimulationClicker").animate(
+            [
+              // keyframes
+              { opacity: "0" },
+              { opacity: "1" },
+            ],
+            {
+              // timing options
+              duration: 200,
+              iterations: 1,
+            },
+          );
     }
 }

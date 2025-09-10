@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/Upgrades.css">
+    <link rel="stylesheet" href="../../../../public/css/global.css">
+</head>
+<body>
+    <div id="CardUpgrades" class="CardUpgrades">
+        <img src="../../../../public/assets/images/basic/dvd.png" alt="" width="78" height="78px">
+    </div>
+
+    <script>
+                document.getElementById("CardUpgrades").animate(
+            [
+              // keyframes
+              { transform: "translateY(0px)" },
+              { transform: "translateY(-10px)" },
+            ],
+            {
+              // timing options
+              duration: 500,
+              iterations: 1,
+            },
+          );
+    </script>
+</body>
+</html>
